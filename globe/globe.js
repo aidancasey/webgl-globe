@@ -188,6 +188,9 @@ DAT.Globe = function(container, colorFn) {
         for (i = 0; i < data.length; i += step) {
           lat = data[i];
           lng = data[i + 1];
+
+//aidan adding back
+        size = data[i + 2];
 //        size = data[i + 2];
           color = colorFnWrapper(data,i);
           size = 0;
